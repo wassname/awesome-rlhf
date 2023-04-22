@@ -10,7 +10,7 @@ Data can generally be divided along two axis:
 - high quality 🗹 or Lower quality ☐
 - natural 🧑 or unnatural 🤖
 
-Depending on your training objectives you will want lots of low quality instruction data, or a small amount of high quality data. Which should you use? Lets see what Anthropic have to say [Askell et all Antrhopic](https://arxiv.org/abs/2112.00861)]: 
+Depending on your training objectives you will want lots of low quality instruction data, or a small amount of high quality data. Which should you use? Lets see what Anthropic have to say in [Askell et al](https://arxiv.org/abs/2112.00861): 
 
 > **How can we improve the sample efficiency of preference modeling?** We find that we can significantly improve sample efficiency using a ‘preference model pre-training’ (PMP) stage of training, where we first pre-train on large public datasets that encode human preference information, such as Stack Exchange, Reddit, and Wikipedia edits, before finetuning on smaller datasets encoding more specific human preferences.
 
