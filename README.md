@@ -92,6 +92,7 @@ There are multiple ways to formally evaluate LLM capabilities. Right now project
 - [EleutherAI/lm-evaluation-harness: A framework for few-shot evaluation of autoregressive language models.](https://github.com/EleutherAI/lm-evaluation-harness)
 - [openai/evals: Evals is a framework for evaluating LLMs and LLM systems, and an open-source registry of benchmarks.](https://github.com/openai/evals)
 - [stanford-crfm/helm: Holistic Evaluation of Language Models (HELM), a framework to increase the transparency of language models (https://arxiv.org/abs/2211.09110).](https://github.com/stanford-crfm/helm)
+- [huggingface/evaluate](https://github.com/huggingface/evaluate) this is not specific to LLM's or RLHF, but [some projects](https://github.com/gururise/AlpacaDataCleaned/blob/791174f63e/eval/README.md) find it and easy to use starting point
 
 ## Similar lists
 
