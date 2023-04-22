@@ -16,7 +16,7 @@ Depending on your training objectives you will want lots of low quality instruct
 
 ### Natural 🧑 & High quality 🗹
 
-- oasst- [from open assistant]([https://huggingface.co/OpenAssistant](https://huggingface.co/datasets/OpenAssistant/oasst1)) 22k rows, 2023-04-12
+- OASST1- [OpenAssistant Conversations Dataset](https://huggingface.co/datasets/OpenAssistant/oasst1) 160k rows, 2023-04-12
 - SHP - [Stanford human preferences](https://huggingface.co/datasets/stanfordnlp/SHP) - a dataset of instructions inferred from high quality sbureddits. 300k rows. 2023-02-23  [tweet](https://twitter.com/ethayarajh/status/1628442009500524544/photo/1)
 - [HH-RLHF - Antropic RLHF](https://huggingface.co/datasets/Anthropic/hh-rlhf) 91k rows
 - [allenai/natural-instructions](https://github.com/allenai/natural-instructions) 64k rows
