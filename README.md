@@ -1,5 +1,5 @@
 
-This is a list of resources for reinforcement learning from human feedback and other methods to instruct large language models.
+This is a list of resources for reinforcement learning from human feedback (RLHF) and other methods to instruct large language models.
 
 ## Evaluation
 
@@ -8,9 +8,6 @@ There are multiple ways to formally evaluate LLM capabilities. Right now project
 - [EleutherAI/lm-evaluation-harness: A framework for few-shot evaluation of autoregressive language models.](https://github.com/EleutherAI/lm-evaluation-harness)
 - [openai/evals: Evals is a framework for evaluating LLMs and LLM systems, and an open-source registry of benchmarks.](https://github.com/openai/evals)
 - [stanford-crfm/helm: Holistic Evaluation of Language Models (HELM), a framework to increase the transparency of language models (https://arxiv.org/abs/2211.09110).](https://github.com/stanford-crfm/helm)
-
-## Training
-
 
 
 ## Data
@@ -62,6 +59,26 @@ A great way to find new instruction datasets is to
 - [search huggingface's datasets](all hf data [1](https://huggingface.co/search/full-text?q=rlhf&type=dataset))
 - Look at compilations like - [OIG](https://laion.ai/blog/oig-dataset/)
 - [github instruction-turning tag](https://github.com/topics/instruction-tuning)
+
+
+
+## Training
+
+### Libraries
+
+- https://github.com/lucidrains/PaLM-rlhf-pytorch - Implementation of RLHF on top of the PaLM 
+- https://github.com/CarperAI/trlx - A repo for distributed training of language models with Reinforcement Learning via Human Feedback (RLHF) 
+- https://huggingface.co/blog/stackllama - StackLLaMA: A hands-on guide to train LLaMA with RLHF 
+
+
+### Papers/Methods
+
+- [RLHF](https://arxiv.org/pdf/2009.01325.pdf)
+- Chain of Hindsight https://arxiv.org/abs/2302.02676 the model it trained to rank it's own output, so it's kind of like diffusion, letting the model operate iterativly. 
+- SFT - Supervised Fine Tuning this is normal fine tuning
+- HIR: [Hindsight Instruction Relabeling](https://twitter.com/tianjun_zhang/status/1628180891368570881) 💩 offline RL reinvented with extra steps
+ FARL: SL
+  Algorithm Distillation: classical control problems. Offline RL
 
 Similar lists
 
