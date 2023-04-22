@@ -63,6 +63,8 @@ A great way to find new instruction datasets is to
 - https://github.com/CarperAI/trlx - A repo for distributed training of language models with Reinforcement Learning via Human Feedback (RLHF) 
 - https://huggingface.co/blog/stackllama - StackLLaMA: A hands-on guide to train LLaMA with RLHF 
 - https://huggingface.co/docs/trl/index transformer reinforcement learning
+- https://github.com/allenai/RL4LMs
+- https://github.com/voidful/TextRL
 
 
 ### Papers/Methods
@@ -86,6 +88,7 @@ There are multiple ways to formally evaluate LLM capabilities. Right now project
 
 ## Similar lists
 
-- https://github.com/yaodongC/awesome-instruction-dataset
-- https://github.com/zhilizju/Awesome-instruction-tuning
-- https://github.com/raunak-agarwal/instruction-datasets
+- very comprehensive list https://github.com/yaodongC/awesome-instruction-dataset :star:
+- divides the data in a similar way https://github.com/raunak-agarwal/instruction-datasets
+- has tables https://github.com/zhilizju/Awesome-instruction-tuning
+
