@@ -19,8 +19,8 @@ Depending on your training objectives you will want lots of low quality instruct
 - oasst- [from open assistant]([https://huggingface.co/OpenAssistant](https://huggingface.co/datasets/OpenAssistant/oasst1)) 22k rows, 2023-04-12
 - SHP - [Stanford human preferences](https://huggingface.co/datasets/stanfordnlp/SHP) - a dataset of instructions inferred from high quality sbureddits. 300k rows. 2023-02-23  [tweet](https://twitter.com/ethayarajh/status/1628442009500524544/photo/1)
 - [HH-RLHF - Antropic RLHF](https://huggingface.co/datasets/Anthropic/hh-rlhf) 91k rows
-- https://github.com/allenai/natural-instructions 64k rows
-- https://github.com/hendrycks/ethics 130k rows
+- [allenai/natural-instructions](https://github.com/allenai/natural-instructions) 64k rows
+- [hendrycks/ethics](https://github.com/hendrycks/ethics) 130k rows
 
 ### Natural 🧑 & Lower quality ☐
 
@@ -30,7 +30,7 @@ Depending on your training objectives you will want lots of low quality instruct
 
 ### Unnatural 🤖 & High quality  🗹
 
-- [`alpaca_data_cleaned.json`](https://github.com/tloen/alpaca-lora/pull/32) including removing as a large language model https://github.com/gururise/AlpacaDataCleaned
+- [`alpaca_data_cleaned.json`](https://github.com/gururise/AlpacaDataCleaned) GPT4 instruction data, with heavy curation
 - https://github.com/teknium1/GPTeacher
 - https://github.com/databrickslabs/dolly
 - [OIG-small-chip2](https://laion.ai/blog/oig-dataset/) a subset of the OIG dataset
@@ -62,6 +62,7 @@ A great way to find new instruction datasets is to
 - https://github.com/lucidrains/PaLM-rlhf-pytorch - Implementation of RLHF on top of the PaLM 
 - https://github.com/CarperAI/trlx - A repo for distributed training of language models with Reinforcement Learning via Human Feedback (RLHF) 
 - https://huggingface.co/blog/stackllama - StackLLaMA: A hands-on guide to train LLaMA with RLHF 
+- https://huggingface.co/docs/trl/index transformer reinforcement learning
 
 
 ### Papers/Methods
