@@ -1,13 +1,6 @@
 
 This is a list of resources for reinforcement learning from human feedback (RLHF) and other methods to instruct large language models.
 
-## Evaluation
-
-There are multiple ways to formally evaluate LLM capabilities. Right now project generally use one of these 3 libraries. Personally I prefer Eleuther's work, but opinions and github stars are divided.
-
-- [EleutherAI/lm-evaluation-harness: A framework for few-shot evaluation of autoregressive language models.](https://github.com/EleutherAI/lm-evaluation-harness)
-- [openai/evals: Evals is a framework for evaluating LLMs and LLM systems, and an open-source registry of benchmarks.](https://github.com/openai/evals)
-- [stanford-crfm/helm: Holistic Evaluation of Language Models (HELM), a framework to increase the transparency of language models (https://arxiv.org/abs/2211.09110).](https://github.com/stanford-crfm/helm)
 
 
 ## Data
@@ -79,8 +72,18 @@ A great way to find new instruction datasets is to
 - HIR: [Hindsight Instruction Relabeling](https://twitter.com/tianjun_zhang/status/1628180891368570881) 💩 offline RL reinvented with extra steps
  FARL: SL
   Algorithm Distillation: classical control problems. Offline RL
+  
+  
+ 
+## Evaluation
 
-Similar lists
+There are multiple ways to formally evaluate LLM capabilities. Right now project generally use one of these 3 libraries. Personally I prefer Eleuther's work, but opinions and github stars are divided.
+
+- [EleutherAI/lm-evaluation-harness: A framework for few-shot evaluation of autoregressive language models.](https://github.com/EleutherAI/lm-evaluation-harness)
+- [openai/evals: Evals is a framework for evaluating LLMs and LLM systems, and an open-source registry of benchmarks.](https://github.com/openai/evals)
+- [stanford-crfm/helm: Holistic Evaluation of Language Models (HELM), a framework to increase the transparency of language models (https://arxiv.org/abs/2211.09110).](https://github.com/stanford-crfm/helm)
+
+## Similar lists
 
 - https://github.com/yaodongC/awesome-instruction-dataset
 - https://github.com/zhilizju/Awesome-instruction-tuning
