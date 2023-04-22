@@ -61,10 +61,15 @@ A great way to find new instruction datasets is to
 
 - https://github.com/lucidrains/PaLM-rlhf-pytorch - Implementation of RLHF on top of the PaLM 
 - https://github.com/CarperAI/trlx - A repo for distributed training of language models with Reinforcement Learning via Human Feedback (RLHF) 
-- https://huggingface.co/blog/stackllama - StackLLaMA: A hands-on guide to train LLaMA with RLHF 
+
 - https://huggingface.co/docs/trl/index transformer reinforcement learning
 - https://github.com/allenai/RL4LMs
 - https://github.com/voidful/TextRL
+
+### tutorials
+
+- https://huggingface.co/blog/stackllama - StackLLaMA: A hands-on guide to train LLaMA with RLHF 
+- https://huggingface.co/blog/rlhf
 
 
 ### Papers/Methods
@@ -72,9 +77,11 @@ A great way to find new instruction datasets is to
 - [RLHF](https://arxiv.org/pdf/2009.01325.pdf)
 - Chain of Hindsight https://arxiv.org/abs/2302.02676 the model it trained to rank it's own output, so it's kind of like diffusion, letting the model operate iterativly. 
 - SFT - Supervised Fine Tuning this is normal fine tuning
+- [Pretraining Language Models with Human Preferences](https://arxiv.org/abs/2302.08582) [tweet](https://twitter.com/tomekkorbak/status/1628088313252052993?lang=en) You can (and should) do RL from human feedback during pretraining itself! In our new paper, we show how training w/ human preferences early on greatly reduces undesirable LM behaviors
 - HIR: [Hindsight Instruction Relabeling](https://twitter.com/tianjun_zhang/status/1628180891368570881) 💩 offline RL reinvented with extra steps
  FARL: SL
   Algorithm Distillation: classical control problems. Offline RL
+- Hindsight Instruction Relabeling (HIR), https://arxiv.org/abs/2302.05206 " outperforms the baseline algorithms and is comparable to or even surpasses supervised finetuning. "
   
   
  
@@ -91,4 +98,5 @@ There are multiple ways to formally evaluate LLM capabilities. Right now project
 - very comprehensive list https://github.com/yaodongC/awesome-instruction-dataset :star:
 - divides the data in a similar way https://github.com/raunak-agarwal/instruction-datasets
 - has tables https://github.com/zhilizju/Awesome-instruction-tuning
+- papers https://github.com/SinclairCoder/Instruction-Tuning-Papers
 
