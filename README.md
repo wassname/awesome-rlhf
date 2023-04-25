@@ -89,10 +89,13 @@ A great way to find new instruction datasets is to
 
 There are multiple ways to formally evaluate LLM capabilities. Right now project generally use one of these 3 libraries. Personally I prefer Eleuther's work, but opinions and github stars are divided.
 
-- [EleutherAI/lm-evaluation-harness: A framework for few-shot evaluation of autoregressive language models.](https://github.com/EleutherAI/lm-evaluation-harness)
-- [openai/evals: Evals is a framework for evaluating LLMs and LLM systems, and an open-source registry of benchmarks.](https://github.com/openai/evals)
-- [stanford-crfm/helm: Holistic Evaluation of Language Models (HELM), a framework to increase the transparency of language models (https://arxiv.org/abs/2211.09110).](https://github.com/stanford-crfm/helm)
-- [huggingface/evaluate](https://github.com/huggingface/evaluate) this is not specific to LLM's or RLHF, but [some projects](https://github.com/gururise/AlpacaDataCleaned/blob/791174f63e/eval/README.md) find it and easy to use starting point
+- python api:
+	- [huggingface/evaluate](https://github.com/huggingface/evaluate) this is not specific to LLM's or RLHF, but [some](https://github.com/nomic-ai/gpt4all/blob/main/eval_self_instruct.py#L43) [projects](https://github.com/gururise/AlpacaDataCleaned/blob/791174f63e/eval/README.md) find it and easy to use starting point. 
+- cli api:
+	- [EleutherAI/lm-evaluation-harness](https://github.com/EleutherAI/lm-evaluation-harness) - has lots of datasets like GLUE and ETHICS already included, works with huggingface
+	- [openai/evals: Evals is a framework for evaluating LLMs and LLM systems, and an open-source registry of benchmarks.](https://github.com/openai/evals) - has lots of rare eval sets like sarcasm, works with langchain
+	- [stanford-crfm/helm: Holistic Evaluation of Language Models (HELM), a framework to increase the transparency of language models (https://arxiv.org/abs/2211.09110).](https://github.com/stanford-crfm/helm), works with huggingface
+
 
 ## Similar lists
 
