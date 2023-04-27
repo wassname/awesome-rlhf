@@ -34,6 +34,7 @@ Depending on your training objectives you will want lots of low quality instruct
 - https://github.com/teknium1/GPTeacher
 - https://github.com/databrickslabs/dolly
 - [OIG-small-chip2](https://laion.ai/blog/oig-dataset/) a subset of the OIG dataset
+- [shareGPT](https://huggingface.co/datasets/RyokoAI/ShareGPT52K) 90k
 
 ### Unnatural 🤖 & Lower quality ☐
 
